@@ -21,6 +21,7 @@ int main(int argc, char **argv) {
     printf("text    : %s\n", obj->text);
     printf("number  : %d\n", obj->number);
     printf("boolean : %s\n", obj->boolean ? "true" : "false");
+    free(obj); // dont forget to free
     return 0;
 }
 
