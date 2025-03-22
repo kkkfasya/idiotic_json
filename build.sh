@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Compile & link the libs
 gcc -c microjson-1.7/mjson.c -o mjson.o
